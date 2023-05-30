@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-product="alura" style="scroll-behavior: smooth;"><head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Form</title>
+<style>
+  .direita{align-content: left;}  
+    body{background-color:lightgray;}
+    table{width:25vw;}
+   
+  table, th, td {
+  border: 1px solid;}
+
+th{text-align:center}
+div{margin-left: 35vw;margin-right: 25vw;margin-top: 15vh;}
+</style>
+</head>
+
+
+  <body>
+<div>
+<table>
+<tr>
+  <th colspan="2">Loja de Pizza 2.0</th>
+</tr>
+<tr>
+    <td>Nome</td>
+    <td class="direita" ><form>
+        <input style="background-color: grey;" type="text">
+    </form></td>
+</tr>
+<tr><td rowspan="2">Topo da Pizza</td></tr>
+
+<tr><td class="direita" ><form>
+  <INPUT  TYPE="RADIO" NAME="OPCAO" VALUE="op1"> Suprema<br>
+  <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2"> Havaiano<br>
+    <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op3"> Vegetariano(ruim)
+  </form></td></tr>
+
+  <tr><td>Molho da Pizza</td>
+<td><select style="background-color: grey"; name="select">
+  <option value="valor3" selected></option>
+  <option value="valor1">Molho de Tomate</option>
+  <option value="valor2">Sem Molho</option>
+</select></td></tr>
+
+<tr><td>Extras</td>
+<td><form>
+  <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op1"> Queijo Extra 
+  <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op2"> Sem Gluten
+
+  </form></td>
+</tr>
+<tr>
+<td colspan="2"><form>
+  Endereço de entrega<textarea style="width:25vw;" name="endereco" rows="4" cols="50"></textarea>
+</form></td>
+</tr>
+<tr>
+<td colspan="2">
+  <input type="submit" value="Fazer pedido">
+</td>
+
+</tr>
+
+
+</div>
+
+
+</table>
+
+
+
+
+  </body>
+
