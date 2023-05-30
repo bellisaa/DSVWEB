@@ -1,0 +1,7 @@
+header{font-size:18px;margin-top: 3vh;margin-bottom: 15vh;}
+th, footer{color: blue;}
+table, th, td {border: 1px solid black;text-align: center;}
+td:first-child{background-color:pink;font-weight:bold;}
+td{background-color: yellow;}
+td:last-child{background-color: red;font-weight: bold;}
+caption{margin-bottom: 5px;text-align: center;}

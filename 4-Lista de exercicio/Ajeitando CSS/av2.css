@@ -1,0 +1,6 @@
+body{background-color:#00FFFF;}
+p:first-of-type{text-align:center;font-size:32px ;font-family:Verdana;margin-bottom: 0;}/*o primeiro paragrafo está aqui*/
+p{text-align:center;}/*demais paragrafos*/
+.paragrafo{text-align:center;font-size:15px ;font-family:Verdana;} /*tudo que tiver size 2 está aqui*/
+img{border:0;width:400px;height:300px;}
+#paragrafo{text-align:center;font-size:10px ;font-family:Verdana;}
