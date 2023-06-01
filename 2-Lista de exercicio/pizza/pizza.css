@@ -1,0 +1,16 @@
+.direita{align-content: left;}  
+    body{background-color:white;}
+    table{width:25vw;}
+   
+  table, th, td {background-color: aliceblue;
+  border: 1px solid;}
+
+th{text-align:center}
+div{margin-left: 35vw;margin-right: 25vw;margin-top: 15vh;}
+input{background-color: rgb(237, 233, 233);}
+select{background-color:lightgray;width: 100%;}
+table{text-align: left;}
+.todo{width: 97%;}
+
+.sem{border:1px solid;width: 100%;}
+.sems{border:0 solid;width: 98%;}
