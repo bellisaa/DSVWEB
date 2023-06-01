@@ -1,0 +1,5 @@
+h1{color:grey;}
+h2{color:darkgrey;}
+h5{font-size: 16px;}
+.lado{color:black;background-color:white;margin-left:40%;margin-top: 5%;width: 25%;}
+.lado:hover{display:none;}
