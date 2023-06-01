@@ -1,0 +1,9 @@
+.direita{align-content: left;}  
+    body{background-color:white;}
+    table{width:25vw;}
+   
+  table, th, td {background-color: aliceblue;
+  border: 1px solid;}
+
+th{text-align:center}
+div{margin-left: 35vw;margin-right: 25vw;margin-top: 15vh;}
