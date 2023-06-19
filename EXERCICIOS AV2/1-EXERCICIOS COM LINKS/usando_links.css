@@ -1,0 +1,12 @@
+.caixa{text-align: center;font-family:sans-serif;font-size:16px;}
+
+/*configuracao geral do botao*/button{height: 30px;cursor:pointer;border-radius:6px;border:solid transparent;color:blue;background-color: rgb(49, 224, 49);padding:6.4px 19.2px;}
+
+
+/*aparencai do botao*/#bt1{width: 235px;} 
+/*aparencia do botao com mouse*/#bt1:hover{color:white;background-color: forestgreen;width: 240px;height: 35px;
+/*roubei essa parte do exercicio pra ficar bonito*/transition: .2s all linear;-webkit-transition: .2s all linear;}
+
+#bt2{width: 100px;}
+#bt3{width: 150px;}
+
