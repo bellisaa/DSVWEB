@@ -1,0 +1,112 @@
+<!doctype html>	
+<html>	
+<head>		
+        <meta	charset="utf-8">	
+        <meta	http-equiv="X-UA-Compatible"	content="IE=edge">	
+        <meta	name="viewport"	content="width=device-width,	initial-scale=1">
+        <title>Checkout Mirror	Fashion</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        
+<!--Links do bootstrap-->        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"crossorigin="anonymous">
+
+<!--	Optional theme	-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"crossorigin="anonymous">
+</head>	
+
+
+
+<body>	
+<div class="jumbotron">
+    <div class="container">
+		<h1>Ótima escolha!</h1>	
+		<p>Obrigado	por	comprar	na	Mirror Fashion!		
+		Preencha seus dados para efetivar a	compra.</p>	
+    </div>
+</div> <!--fechado jumbotron e container-->
+
+<div class="container"><!--container dos panels-->
+    <div class="row"><div class="col-md-4"><!--colocando a coluna 1 apenas na imagem-->
+    <div class="panel panel-success">
+        <div class="panel-heading"> 
+            <h2	class="panel-title">Sua	compra</h2>
+        </div><!--fechou o panel-heading  -->       
+
+<div class="panel-body">
+<img src="https://www.havan.com.br/media/catalog/product/cache/73a52df140c4d19dbec2b6c485ea6a50/c/a/cardigan-feminino-tricot-basico-patricia-foster_324501_2.jpg" 
+alt="Cardigan Preto" class="img-thumbnail img-responsive">
+<dl>	
+<dt>Produto</dt>	
+<dd>Cardigan Preto</dd>	
+<dt>Cor</dt>	
+<dd>Preto</dd>	
+<dt>Tamanho</dt>	
+<dd>XXG</dd>	
+<dt>Preço</dt>	
+<dd>R$89,99</dd>	
+</dl>
+</div><!--fechar panel-body-->
+</div><!--fechar panel-success-->
+</div><!--fecharcol md 4-->
+
+
+<div class="col-md-8">	
+<form>
+    <div class="col-md-6"><fieldset><!--div coluna nomes/metade da coluna-->
+<legend>Dados pessoais</legend>	
+
+<div class="form-group"><!--tag aberta-->
+        <label	for="nome">Nome	completo</label>
+        <input	type="text"	class="form-control" id="nome" name="nome" autofocus>
+</div><!--tag fechada-->
+
+<div class="form-group"><!--tag aberta-->
+		<label	for="email">Email</label>
+        <div class="input-group">	
+            <span class="input-group-addon">@</span>
+		    <input type="email" class="form-control" id="email" name="email" placeholder="email@email.com">
+</div></div><!--tag fechada-->	
+
+<div class="form-group"><!--tag aberta-->
+        <label for="cpf">CPF</label>	
+	    <input type="text" class="form-control"	id="cpf" name="cpf" placeholder="000.000.000-00">
+</div><!--tag fechada-->
+
+<div class="checkbox"><!--tag aberta-->
+        <label>	
+		<input	type="checkbox"	value="sim"	name="spam"	checked>Desejo receber notificações da Mirror Fashion</label>
+</div><!--tag fechada-->
+
+</fieldset></div><!--div col fechada-->
+
+<div class="col-md-6"><fieldset><!--div coluna cartao/metade da coluna-->	
+    <legend>Cartão de crédito</legend>	
+    <div class="form-group">
+    <label for="numero-cartao">Número-CVV</label>
+<input type="text" class="form-control" id="numero-cartao" name="numero-cartao">
+    </div>	
+    
+    <div class="form-group">	
+        <label for="bandeira-cartao">Bandeira</label>	
+        <select name="bandeira-cartao"	id="bandeira-cartao" class="form-control"> 
+        <option	value="master">MasterCard</option>
+        <option	value="visa">VISA</option>
+        <option	value="amex">Elo</option>
+    </select>	
+    </div>	
+    
+    <div class="form-group">
+        <label for="validade-cartao">Validade</label>
+        <input	type="month" class="form-control"id="validade-cartao" name="validade-cartao">
+    </div>
+</div></div></fieldset><!--div col do cartao-->
+</form>
+
+
+<button type="submit" class="btn btn-primary btn-lg pull-right"><span class="glyphicon glyphicon-thumbs-up"></span> Confirmar Pedido</button>
+
+</div></div></div>
+
+</body>	
+</html>
