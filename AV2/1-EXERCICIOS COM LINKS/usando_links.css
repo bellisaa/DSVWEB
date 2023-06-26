@@ -1,0 +1,24 @@
+.caixa{text-align: center;font-family:sans-serif;font-size:16px;}
+
+/*configuracao geral do botao*/button{height: 30px;cursor:pointer;border-radius:6px;border:solid transparent;color:blue;background-color: rgb(49, 224, 49);padding:0;font-size: 17px;
+/*roubei essa parte do exercicio pra ficar bonito*/transition: .2s all linear;-webkit-transition: .2s all linear;}
+
+
+/*github*/#bt1{width: 275px;} 
+/*aparencia do botao com mouse*/#bt1:hover{color:white;background-color: forestgreen;height: 35px;width: 280px;
+}
+
+/*linkedin*/#bt2{width: 100px;}
+#bt2:hover{width: 105px;height: 35px;color:white;background-color: forestgreen;}
+
+/*pagina2*/#bt3{width: 150px;}
+#bt3:hover{width: 155px;height: 35px;color:white;background-color: forestgreen;}
+
+/*noticias*/#bt4{width: 150px;}
+#bt4:hover{width: 155px;height: 35px;color:white;background-color: forestgreen;}
+
+.downloads{width: 200px;}
+.downloads:hover{width: 205px;height: 35px;color:white;background-color: forestgreen;}
+
+#voltar{width:100px ;;background-color:rgb(61, 145, 255);}
+#voltar:hover{background-color: rgb(0, 110, 255);color: white;width: 105px;height: 35px;}

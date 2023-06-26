@@ -1,0 +1,32 @@
+body{text-align:center;font-family:sans-serif;font-size: 15.96px;}
+h1{margin-top:45px;}
+h2{margin: 35px;font-size: 24px;}
+
+
+/*pras tags aparecerem no texto*/
+#b:after{content: '<b></b>';font-weight:normal;}
+#strong:after{content: '<strong></strong>';font-weight: normal;}
+#i:after{font-style:normal;content:'<i></i>';}
+#em:after{font-style:normal;content: '<em></em>';}
+#mark::after{content:'<mark></mark>';font-weight: normal;} 
+#big:after{content:'<big></big>';font-size:medium;}
+#small:after{content:'<small></small>';font-size:medium;}
+#del:after{content:'<del></del>';}
+#ins:after{content:'<ins></ins>';}
+#u:after{content:'<u></u>';}
+
+
+/*formatacao do mark*/
+mark{background-color: rgb(18, 199, 18);color:white;font-size: 17.29px;}
+#mark{background-color: transparent;color: black;}
+/*formatacao do del*/
+#del{text-decoration:none;}
+/*formatacao do ins*/
+#ins{text-decoration:none;}
+/*formatacao do u*/
+#u{text-decoration:none;}
+
+/*botao*/
+button{background-color:rgb(61, 145, 255);transition:.2s;
+padding:8px 28.8px;border-radius:8px;border-color: transparent;margin: 20px;}
+button:hover {background-color: rgb(0, 110, 255);color: white;cursor: pointer;}

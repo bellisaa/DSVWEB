@@ -1,0 +1,10 @@
+body{background-color: rgb(119, 188, 211);font-size: 16px;font-family: Arial, Helvetica, sans-serif;}
+
+h1{color: rgb(210, 188, 255);background-color: rgb(89, 135, 150);text-align: center;}
+
+p{text-align: justify;}
+h2{ color: darkred;text-align: center}
+
+button{background-color: forestgreen;border-radius: 5px;border:1px solid transparent;width: 180px;height: 35px;font-family: 17px;color: white;}
+#pg1{margin-left: 90%;}
+#pg2{margin-right: 90%;}

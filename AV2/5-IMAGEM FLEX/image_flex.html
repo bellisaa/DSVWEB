@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imagem Flex</title>
+  <link rel="stylesheet" type="text/css" href="flex_image.css">
+</head>
+
+<body>
+
+<h1>Imagem Flexível</h1>
+<p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência.</p>
+
+  <picture>
+    <source media="(max-width: 750px)"  srcset="https://html-css-eugenio.vercel.app/desafios/d07/img/paisagem-p.png"> <!-para ter imagem pequena tem que colocar aqui->
+
+    <source media="(max-width: 1250px)" srcset="https://html-css-eugenio.vercel.app/desafios/d07/img/paisagem-m.png"> <!-pra imagem media ->
+
+    <img src="https://html-css-eugenio.vercel.app/desafios/d07/img/paisagem-g.png" alt="Não rolou 😒"> <!-imagem original ->
+  </picture>
+
+
+
+</body>
